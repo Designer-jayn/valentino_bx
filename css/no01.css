@@ -1,0 +1,17 @@
+.dog_hair{
+    position: absolute;
+    left: 0;
+    right: 0;
+    width: 367px;
+    height: 220px;
+    background: url("../img/scene01/dog_hair.png") no-repeat 0 0;
+    animation: ani7 1s steps(106) infinite;
+    overflow: hidden;
+    margin-bottom: 30px;
+    cursor: pointer;
+}
+
+@keyframes ani7 {
+    to {
+        background-position: -38902px;
+    }
