@@ -1254,7 +1254,7 @@
 
 .sc03_hori_scroll .glass_tap .slick-slide{
     width: 270px;
-    height: 260px;
+    height: 23.5vh;
 }
 
 .sc03_hori_scroll .glass_tap .slick-slide > a{
@@ -1262,7 +1262,7 @@
     left: 0;
     top: 0;
     width: 100%;
-    height: 100%;
+    height: 100vh;
 }
 
 
