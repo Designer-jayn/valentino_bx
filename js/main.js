@@ -336,7 +336,7 @@ $(document).ready(function () {//HTML 과 CSS 의 모든 로딩이 끝나면 J-Q
             }
         }
 
-        if(scrollLeft >= innerWidth * 2){
+        if(scrollLeft >= innerWidth * 1.8){
             $(".up").addClass('on');
             $(".down").addClass('on');
             $(".girl").addClass('on');
@@ -404,14 +404,14 @@ $(document).ready(function () {//HTML 과 CSS 의 모든 로딩이 끝나면 J-Q
 
 
         }else if($('.s04_title_box > div:nth-child(2)').hasClass('on')){
-            $('#s04_picture .bar').css('transform',`translateX(130px)`);
+            $('#s04_picture .bar').css('transform',`translateX(114px)`);
             $('#section04 .villa > div:nth-child(2)').addClass('on');
 
 
 
 
         }else if($('.s04_title_box > div:nth-child(3)').hasClass('on')){
-            $('#s04_picture .bar').css('transform',`translateX(260px)`);
+            $('#s04_picture .bar').css('transform',`translateX(280px)`);
             $('#section04 .villa > div:nth-child(3)').addClass('on');
 
         }
